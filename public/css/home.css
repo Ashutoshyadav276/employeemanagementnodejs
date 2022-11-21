@@ -1,0 +1,18 @@
+body {
+    align-items: center;
+    background-color: rgba(45, 214, 161, 0.777);
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(red, rgba(0, 128, 0, 0.596), blue);
+}
+
+.navbar{
+    display: flex;
+}
+.emp{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    background-color: rgba(191, 255, 0, 0.862);
+}

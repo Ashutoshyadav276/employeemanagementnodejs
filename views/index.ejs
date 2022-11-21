@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a class="http://localhost:8080/" href="#">Home</a></li>
+            <li><a href="/show">Show</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <form method="post" action="/add">
+            <div class="form">
+                <h3 class="emp">Employee Management System</h3>
+                <div class="title">Add</div>
+                <div class="subtitle">Let's add some employee data</div>
+                <label for="firstname" class="placeholder">Name</label>
+
+                <div class="input-container ic1">
+                    <input name="name" class="input" type="text" placeholder=" " />
+                    <div class="cut"></div>
+                    
+                </div>
+                <label for="email" class="placeholder">Email</label>
+                <div class="input-container ic2">
+                    <input name="email" class="input" type="text" placeholder=" " />
+                    <div class="cut cut-short"></div>
+                </div>
+
+                <label for="email" class="placeholder">Address</label>
+                <div class="input-container ic2">
+                    <input name="address" class="input" type="text" placeholder=" " />
+                    <div class="cut cut-short"></div>
+                </div><br>
+
+                <button type="submit" class="submit">Save</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

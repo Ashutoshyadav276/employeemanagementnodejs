@@ -1,0 +1,15 @@
+body {
+    align-items: center;
+    background-color: rgba(45, 214, 161, 0.777);
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(red, rgba(34, 152, 34, 0.389), blue);
+}
+
+.navbar{
+    display: flex;
+}
+
+a{
+    background-color: rgba(191, 255, 0, 0.862);
+}
